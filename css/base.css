@@ -1,0 +1,62 @@
+/*
+reset, body, rubriker, länkar
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222222;
+  background-color: #fffaf3;
+}
+
+address {
+  font-style: normal;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.2;
+  color: #3b2418;
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin: 0 0 16px;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin: 12px 0 8px;
+}
+
+a {
+  color: #8c1010;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: #5e0a0a;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #1a73e8;
+  outline-offset: 2px;
+}
